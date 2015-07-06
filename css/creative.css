@@ -3,7 +3,20 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+/*.circular {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background:background-image: url(../img/header.jpg) no-repeat;
+    }
 
+.circular img {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    }*/
+    
 html,
 body {
     width: 100%;
@@ -475,3 +488,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
