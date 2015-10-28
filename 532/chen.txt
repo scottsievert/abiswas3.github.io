@@ -1,0 +1,20 @@
+Project/Lab Proposal
+Tentative Title: Can a machine get to the head of your class: a hands-off expert system
+ 
+Team Members: Lingjiao Chen, Shengchao Liu, Fujie Zhan
+ 
+Brief Overview of Topic and Motivation:
+In any domain of knowledge there exists a problem where people inquire answers to questions of that domain, while the human expert resource is scarce relatively. In the domain of Medical Care, for example, due to the ratio of patients and qualified physicians, patients may need to pay a lot and wait for long to receive proper medical care. Expert systems have built by companies and organizations to answer questions automatically. However, developing expert systems require knowledge of the specific domains, and software usually only work well on those domains, which makes the development process expensive and sometimes wasteful. We are looking for a general solution to answering questions in natural languages from arbitrary domain, which can learn the specific decision making process of a domain given a set of training data. Given training data with knowledge of a specific domain, we want the system to learn the knowledge and become the "expert system" of that domain. Back to the case of medical care, given a large medical knowledge base, the system should be able to answer questions from the patients regarding their symptoms. 
+Core Concepts:
+Concepts:
+1. Singular Value Decomposition
+2. Natural Language Processing
+3. Bayesian Network
+4. Deep Learning
+5. Support Vector Machine
+ 
+Tools:
+numpy, scipy
+ 
+Related Papers, Datasets, or Resources: 
+1. Dataset on Kaggle: https://www.kaggle.com/c/the-allen-ai-science-challenge
