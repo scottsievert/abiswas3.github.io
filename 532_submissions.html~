@@ -81,103 +81,108 @@
       <div class="col-xs-12 col-sm-2"></div>
         <div class="col-xs-12 col-sm-8">
           <br>
-            <p class="lead">ECE/CS/ME 532 Final Projects( Fall 2015)</p>
+          <p class="lead">ECE/CS/ME 532 LAB source files</p>
+
+                <p> 
+                    <b>Lab Assignments</b>: Find assigned lab here <br>
+	             <a href="assignments.html">Assignments</a>
+                </p>
 
                 <p> 
                     <b>Deep Learning for classification</b> <br>
                     <b>Team</b>:Akhil Sundararajan, Alex Watras, Justin Cummins <br>
-                     <a href="532/Akhil Sundararajan.pdf">Proposal</a>
+	             <a href="532_submission_1/README.html">LAB 1</a>
                 </p>
 
                 <p> 
                     <b>Predicting Economy</b> <br>
                     <b>Team</b>:Adam Fleischman, Conor Foley, Brandon Quach<br>
-                     <a href="532/foley.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 2</a> 
                 </p>
 
                 <p> 
                     <b>Sentiment Analysis using Deep Neural Network</b> <br>
                     <b>Team</b>:Apul Jain, Ankit Aggarwal, Ameya Raul <br>
-                     <a href="532/raul.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 3</a> 
                 </p>
 		
                 <p> 
                     <b>Recommendation System</b> <br>
                     <b>Team</b>: Kevin Zhang, Ken Sun, Austin Mease<br>
-                     <a href="532/austin.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 4</a> 
                 </p>
 		
                 <p> 
                     <b>Diabetes Data anaylis and classification</b> <br>
                     <b>Team</b>: Zeng Fan, Chaoqun Mei, Guiming Zhang <br>
-                     <a href="532/mei.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 5 </a> 
                 </p>
 
                 <p> 
                     <b>Predicting bone tumor response using imaging features</b> <br>
                     <b>Team</b>:  Christie Lin, Alison Roth, Matthew Scarpelli<br>
-                     <a href="532/christie.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 6</a> 
                 </p>
 
                 <p> 
                     <b> The Doodle Verse</b> <br>
                     <b>Team</b>: Devin Conathan, Josh Vahala, Zach Pace<br>
-                     <a href="532/devin.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 7</a> 
                 </p>
                         
 
                 <p> 
                     <b>  Can a machine get to the head of your class: a hands-off expert system</b> <br>
                     <b>Team</b>:  Lingjiao Chen, Shengchao Liu, Fujie Zhan<br>
-                     <a href="532/chen.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 8</a> 
                 </p>
 
                 <p> 
                     <b> Dictionary Learning on Image/Audio Inpainting</b> <br>
                     <b>Team</b>: Xiaomin Zhang, Jinman Zhao, Jinyu Xia<br>
-                     <a href="532/jinman.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 9</a> 
                 </p>
 
                 <p> 
                     <b>Topic Modeling</b> <br>
                     <b>Team</b>:  Kevin An, Martin Barus, Daniël Okret<br>
-                     <a href="532/kevin.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 10</a> 
                 </p>
 
                 <p> 
                     <b>Techniques for developing recommender systems</b> <br>
                     <b>Team</b>: Lokesh Jindal, Mehreen Ali, Urmish Thakker<br>
-                     <a href="532/mehreen.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 11</a> 
                 </p>
 
                 <p> 
                     <b>Classifying Radar returns</b> <br>
                     <b>Team</b>: Patrick Forbes, John Borkenhagen, Nick Vander Woude <br>
-                     <a href="532/forbes.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 12</a> 
                 </p>
 
                 <p> 
                     <b>Scale invariant LASSO by parameter re-weighting and its application to neuroimaging data</b> <br>
                     <b>Team</b>: Qihong Lu, Zhenyu Zhang, Jiaan Wang<br>
-                     <a href="532/lu.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 13</a> 
                 </p>                                
 
                 <p> 
                     <b>Methods to exploit structured sparsity</b> <br>
                     <b>Team</b>: Ian Kinesella, Blake Mason, Scott Sievert<br>
-                     <a href="532/sievert.html">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 14</a> 
                 </p>     
 
                 <p> 
                     <b>Analysis of EEG data to predict predisposition to alcoholism</b> <br>
                     <b>Team</b>: Xiaojue Zhou , Smita Bagewadi, He Song<br>
-                     <a href="532/smita.pdf">Proposal</a>
+	            <a href="532_submission_1/README.html">LAB 15</a> 
                 </p>
 
 	       <p>                                                   
 	           <b>Independent Component Analysis and Blind Source Separation and its Applications in Image denoising</b> <br>
 	           <b>Team</b>:Lyndon Quadros, Saman Cyrus<br>    
-	           <a href="532/lyndon.docx">Proposal</a>             
+	           <a href="532_submission_1/README.html">LAB 16</a> 
 	       </p>   
         </div>
 
