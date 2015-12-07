@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html#page-top">Aritra Biswas (Ari)</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Aritra Biswas (Ari)</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -83,21 +83,20 @@
           <br>
             <p class="lead">Selected publications</p>
 
-                 <p> 
-                     <a href="https://abiswas3.github.io/blog">Math Blog(In progress)</a>
-                 </p>
+                <p> 
+                    This is a game we on for the class ECE 353- introduction to microcontrolloers. We programmed an Arm Cortex microcontroller to implement a game using LEDs, push buttons etc. Please find instructional video and instructions in the github repository.
+                    <br>
+                    <br><b>Team of developers</b> - Aritra Biswas an Nicholas Glattard
 
-		 <p> 
-                     <a href="projects_532.html">ECE 532 projects</a>
-                 </p>
 
-		 <p> 
-                     <a href="532_submissions.html">ECE 532 project submission(first draft)</a>
-                 </p>
-
-		 <p> 
-                     <a href="https://aribiswas.wordpress.com/">Travel Blog(In progress)</a>
-                 </p>
+                    <br>
+                    <br>
+                    <b>Source code</b>
+                    <br>
+                    <a href="https://github.com/abiswas3/Asteroid_avoiders">Asteroid avoiders</a>
+                    <br>
+                    <a href="/Users/aritrabiswas1/abiswas3.github.io/ECE353-Project.pdf">Project requirements</a>                    
+                </p>
 
         </div>
 
