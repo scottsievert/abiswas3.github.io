@@ -37,7 +37,7 @@ print '</tr>'
 for i,j in zip(a, projects):
     print '<tr>'
     print '    <td>%s</td>'%(i)
-    print '    <td>%s</td>'%(j)
+    print '    <td>%d</td>'%(int(j)+1)
     print '</tr>'
 
 print '</table>'

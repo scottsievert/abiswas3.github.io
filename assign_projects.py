@@ -34,13 +34,21 @@ print '    <th>%s</th>'%('Name')
 print '    <th>%s</th>'%('Lab Number')
 print '</tr>'
 
-for i,j in zip(a, projects):
-    print '<tr>'
-    print '    <td>%s</td>'%(i)
-    print '    <td>%d</td>'%(int(j)+1)
-    print '</tr>'
 
+tup = []
+for i,j in zip(a, projects):
+    tup.append((i.strip(),(j+1)))
+
+tup = sorted(tup, key=lambda t: t[0].split()[1])
+
+#for i,j in zip(a,projects):
+for t in tup:
+    print '<tr>'
+    print '    <td>%s</td>'%(t[0])
+    print '    <td>%d</td>'%(int(t[1]))
+    print '</tr>'
 print '</table>'
+
 
 print '</body>'
 print '</html>'
