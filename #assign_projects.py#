@@ -37,6 +37,9 @@ print '</tr>'
 tup = []
 count = -1
 for i,j in zip(a, projects):
+    count += 1
+    if count/3 + 1 == j+1:
+        
     tup.append((i.strip(),(j+1)))
 
 #tup2 = sorted(tup, key=lambda t: t[0].split()[1])
@@ -44,9 +47,8 @@ for i,j in zip(a, projects):
 #for i,j in zip(a,projects):
 i = -1
 for t in tup:
-    i +=1
     print '<tr>'
-    print '    <td>%s_%s</td>'%(t[0],i/3+1)
+    print '    <td>%s_%s</td>'%(t[0],i/3)
     print '    <td>%d</td>'%(int(t[1]))
     print '</tr>'
 print '</table>'
