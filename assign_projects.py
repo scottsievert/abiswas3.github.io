@@ -86,7 +86,7 @@ count = -1
 for i,j in zip(a, projects):
     tup.append((i.strip(),(j)))
 
-#tup2 = sorted(tup, key=lambda t: t[0].split()[1])
+tup = sorted(tup, key=lambda t: t[0].split()[1])
 
 #for i,j in zip(a,projects):
 i = -1
