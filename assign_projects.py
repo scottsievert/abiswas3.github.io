@@ -4,10 +4,57 @@ with open('students') as f:
     a = f.readlines()
 
 j = 3
-projects = []
-for i in xrange(0, len(a)):
-    projects.append(j)
-    j = (j+1) % 16
+
+projects = ['2',
+ '3',
+ '4',
+ '5',
+ '6',
+ '7',
+ '8',
+ '9',
+ '10',
+ '11',
+ '12',
+ '13',
+ '14',
+ '15',
+ '16',
+ '1',
+ '2',
+ '3',
+ '4',
+ '5',
+ '6',
+ '7',
+ '9',
+ '10',
+ '8',
+ '11',
+ '12',
+ '13',
+ '14',
+ '15',
+ '16',
+ '1',
+ '2',
+ '3',
+ '4',
+ '5',
+ '6',
+ '7',
+ '8',
+ '9',
+ '10',
+ '11',
+ '12',
+ '13',
+ '14',
+ '15',
+ '1']
+# for i in xrange(0, len(a)):
+#     projects.append(j)
+#     j = (j+1) % 16
 
 f = open('assignment.html', 'w')
 sys.stdout = f
@@ -37,7 +84,7 @@ print '</tr>'
 tup = []
 count = -1
 for i,j in zip(a, projects):
-    tup.append((i.strip(),(j+1)))
+    tup.append((i.strip(),(j)))
 
 #tup2 = sorted(tup, key=lambda t: t[0].split()[1])
 
@@ -46,7 +93,7 @@ i = -1
 for t in tup:
     i +=1
     print '<tr>'
-    print '    <td>%s_%s</td>'%(t[0],i/3+1)
+    print '    <td>%s</td>'%(t[0])
     print '    <td>%d</td>'%(int(t[1]))
     print '</tr>'
 print '</table>'
@@ -55,3 +102,4 @@ print '</table>'
 print '</body>'
 print '</html>'
 f.close()
+
