@@ -83,9 +83,11 @@ print '    <th>%s</th>'%('Assigned Lab Number')
 print '</tr>'
 
 tup = []
-count = -1
+c = -1
 for i,j in zip(a, projects):
-    tup.append((i.strip(),(j)))
+	c += 1
+	trip = (i.strip(), j, c/3+1)
+   	tup.append((trip))
 
 tup = sorted(tup, key=lambda t: t[0].split()[1])
 
@@ -95,7 +97,7 @@ for t in tup:
     i +=1
     print '<tr>'
     print '    <td>%s</td>'%(t[0])
-    print '    <td>%s</td>'%(i/3+1)
+    print '    <td>%s </td>'%(t[2])
     print '    <td>%d</td>'%(int(t[1]))
     print '</tr>'
 print '</table>'
